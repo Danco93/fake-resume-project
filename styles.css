@@ -14,7 +14,8 @@ body {
 }
 .hero {
   background-color: #f08e80;
-  height: 90vh;
+  min-height: 90vh;
+  display: inline-block;
 }
 .navbar {
   display: flex;
@@ -42,4 +43,73 @@ body {
 }
 .navbar .contact:hover {
   opacity: 0.8;
+}
+.Content {
+  padding: 0 15%;
+}
+.tagline {
+  font-size: 4.5rem;
+  color: white;
+  letter-spacing: 2px;
+}
+.mission {
+  font-size: 2rem;
+}
+.mission p {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+  color: white;
+}
+.missiontwo {
+  font-size: 2rem;
+}
+.missiontwo p {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+  color: white;
+}
+.blog {
+  padding: 64px 0;
+}
+.blog-content {
+  font-size: 2rem;
+  padding: 0px 15%;
+}
+.blog-content p {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+  color: black;
+}
+.events {
+  padding: 64px 0;
+  background-color: beige;
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+}
+.events-content {
+  font-size: 2rem;
+  padding: 0px 15%;
+}
+.events-content p {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+  color: black;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 64px;
+}
+.footerc {
+  text-align: center;
+}
+footer img {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 8px;
 }
